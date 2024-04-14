@@ -1,0 +1,25 @@
+{
+  "bookGuiScale": 0,
+  "clickedVisualize": false,
+  "bookData": {
+    "mysticalagriculture:guide": {
+      "viewedEntries": [
+        "mysticalagriculture:basics/inferium_essence",
+        "mysticalagriculture:basics/inferium_seeds",
+        "mysticalagriculture:basics/prosperity_shards",
+        "mysticalagriculture:basics/overworld_ores",
+        "mysticalagriculture:basics/growth_accelerators"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
+    },
+    "apotheosis:apoth_chronicle": {
+      "viewedEntries": [
+        "apotheosis:adventure/attributes/armor",
+        "apotheosis:adventure/affix_loot/gems"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
+    }
+  }
+}

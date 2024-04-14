@@ -1,0 +1,15 @@
+crash-reports/
+local/
+logs/
+mods/
+resourcepacks/
+saves/
+screenshots/
+server-resource-packs/
+shaderpacks/
+texturepacks/
+Xaero*
+hotbar.nbt
+rhino.local.properties
+usercache.json
+usernamecache.json

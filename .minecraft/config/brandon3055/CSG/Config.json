@@ -1,0 +1,7 @@
+{
+  "inventory": {
+    "0:1": "{Count:1b,id:\"eccentrictome:tome\",tag:{\"eccentrictome:mods\":{advancedperipherals:{0:{Count:1b,id:\"patchouli:guide_book\",tag:{\"patchouli:book\":\"advancedperipherals:manual\"}}},apotheosis:{0:{Count:1b,id:\"patchouli:guide_book\",tag:{\"patchouli:book\":\"apotheosis:apoth_chronicle\"}}},cookingforblockheads:{0:{Count:1b,id:\"cookingforblockheads:no_filter_edition\"}},mysticalagriculture:{0:{Count:1b,id:\"patchouli:guide_book\",tag:{\"patchouli:book\":\"mysticalagriculture:guide\"}}},railcraft:{0:{Count:1b,id:\"patchouli:guide_book\",tag:{\"patchouli:book\":\"railcraft:guide_book\"}}},rftoolsbase:{0:{Count:1b,id:\"rftoolsbase:manual\"}},sebastrnlib:{0:{Count:1b,id:\"patchouli:guide_book\",tag:{\"patchouli:book\":\"sebastrnlib:sebastrn_mods_guide_book\"}}},solcarrot:{0:{Count:1b,id:\"solcarrot:food_book\"}}}}}",
+    "0:0": "{Count:1b,id:\"minecraft:stone_axe\",tag:{Damage:0}}"
+  },
+  "wipeBlacklist": []
+}
