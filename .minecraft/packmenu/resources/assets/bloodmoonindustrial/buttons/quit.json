@@ -1,0 +1,20 @@
+{
+	"x": 2,
+	"y": 264,
+	"width": 98,
+	"height": 20,
+	"langKey": "menu.quit",
+	"action": "QUIT",
+    "u": 0,
+    "v": 0,
+    "hoverU": 0,
+    "hoverV": 20,
+    "texWidth": 98,
+    "texHeight": 40,
+    "texture": "bloodmoonindustrial:textures/button-md.png",
+    "fontColor": 13684944,
+    "hoverFontColor": 16777215,
+    "dropShadow": false,
+    "textXOffset": -11,
+    "textYOffset": -4
+}

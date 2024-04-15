@@ -1,0 +1,21 @@
+{
+	"x": 102,
+	"y": 240,
+	"width": 200,
+	"height": 20,
+	"langKey": "fml.menu.mods",
+	"action": "OPEN_GUI",
+	"data": "MODS",
+    "u": 0,
+    "v": 0,
+    "hoverU": 0,
+    "hoverV": 20,
+    "texWidth": 200,
+    "texHeight": 40,
+    "texture": "bloodmoonindustrial:textures/button.png",
+    "fontColor": 13684944,
+    "hoverFontColor": 16777215,
+    "dropShadow": false,
+    "textXOffset": -72,
+    "textYOffset": -4
+}
