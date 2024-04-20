@@ -16,7 +16,8 @@
     "apotheosis:apoth_chronicle": {
       "viewedEntries": [
         "apotheosis:adventure/attributes/armor",
-        "apotheosis:adventure/affix_loot/gems"
+        "apotheosis:adventure/affix_loot/gems",
+        "apotheosis:potion/charms/charm"
       ],
       "bookmarks": [],
       "completedManualQuests": []

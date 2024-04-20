@@ -1,0 +1,479 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "starting_out"
+	group: ""
+	id: "17E43E30B96A6DC6"
+	images: [{
+		height: 2.0d
+		image: "bloodmoonindustrial:textures/quest/quest_notice.png"
+		rotation: 0.0d
+		width: 8.0d
+		x: -9.5d
+		y: -8.0d
+	}]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2DFD81A57353A6B0"]
+			id: "61146BB81CD2A42F"
+			rewards: [
+				{
+					id: "71DFD50369C646FF"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 16
+					id: "151F68294AAD5E49"
+					item: "minecraft:coal"
+					type: "item"
+				}
+			]
+			subtitle: "Craft a pickaxe you'll use once and then never again."
+			tasks: [{
+				id: "7D9355C4404608AB"
+				item: {
+					Count: 1b
+					id: "minecraft:wooden_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Let's Get Digging!"
+			x: -16.5d
+			y: -1.5d
+		}
+		{
+			description: ["&cNote:&r Any logs or planks will count toward this goal."]
+			icon: "minecraft:oak_log"
+			id: "00867438B0CB42D9"
+			rewards: [
+				{
+					id: "546CCBB1347BD41D"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 8
+					id: "230970C7F75D2C1D"
+					item: "minecraft:torch"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "Use your mighty fists to break a tree."
+			tasks: [
+				{
+					count: 16L
+					id: "11324FB9E6BF8904"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "minecraft:logs"
+						}
+					}
+					title: "Any logs"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "2BCEF73F55067447"
+					item: {
+						Count: 16b
+						id: "itemfilters:tag"
+						tag: {
+							value: "minecraft:planks"
+						}
+					}
+					title: "Any planks"
+					type: "item"
+				}
+			]
+			title: "Punch a Tree"
+			x: -20.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["00867438B0CB42D9"]
+			id: "2DFD81A57353A6B0"
+			rewards: [{
+				id: "0616FB742D8B0988"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Build a crafting table."
+			tasks: [{
+				id: "168B561A12C5BA51"
+				item: "minecraft:crafting_table"
+				type: "item"
+			}]
+			title: "The \"Craft\" Part of \"Minecraft\""
+			x: -18.0d
+			y: -3.0d
+		}
+		{
+			id: "4E14060BBACA84AF"
+			rewards: [{
+				id: "46195D7734469CA2"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			size: 1.5d
+			subtitle: "Craft any kind of wooden double chest."
+			tasks: [{
+				count: 2L
+				id: "3D76CA8F38A36F9C"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:chests/wooden"
+					}
+				}
+				optional_task: true
+				title: "Any wooden chest"
+				type: "item"
+			}]
+			title: "Practice Safe Storage"
+			x: -20.625d
+			y: -6.375d
+		}
+		{
+			dependencies: ["4E14060BBACA84AF"]
+			id: "22003411110B8F1A"
+			optional: true
+			rewards: [{
+				id: "50A3881BC780EA1F"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Find or craft any backpack."
+			tasks: [{
+				id: "3437F597F3B3F638"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "sophisticatedbackpacks:backpack"
+							}
+							{
+								Count: 1b
+								id: "sophisticatedbackpacks:copper_backpack"
+							}
+							{
+								Count: 1b
+								id: "sophisticatedbackpacks:iron_backpack"
+							}
+							{
+								Count: 1b
+								id: "sophisticatedbackpacks:gold_backpack"
+							}
+							{
+								Count: 1b
+								id: "sophisticatedbackpacks:diamond_backpack"
+							}
+							{
+								Count: 1b
+								id: "sophisticatedbackpacks:netherite_backpack"
+							}
+						]
+					}
+				}
+				title: "Any backpack"
+				type: "item"
+			}]
+			title: "Storage On the Go!"
+			x: -21.75d
+			y: -5.25d
+		}
+		{
+			dependencies: ["4E14060BBACA84AF"]
+			id: "1035A42451AA4476"
+			optional: true
+			rewards: [{
+				id: "1EBF9AEF1A98A270"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Build any 8 Refined Storage containers."
+			tasks: [{
+				count: 8L
+				id: "2029A3B8D9EA75C2"
+				item: {
+					Count: 8b
+					id: "itemfilters:id_regex"
+					tag: {
+						value: "sophisticatedstorage:(.*?)(.*)(barrel|chest|shulker_box)(.*)"
+					}
+				}
+				type: "item"
+			}]
+			title: "More Storage Needed"
+			x: -19.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["73C940FD797AC057"]
+			id: "4E930AA685A35763"
+			shape: "diamond"
+			size: 1.0d
+			subtitle: "Visit the Twilight Forest."
+			tasks: [{
+				dimension: "twilightforest:twilight_forest"
+				id: "12BC0E09BC7F6D06"
+				title: "Evening in the Forest"
+				type: "dimension"
+			}]
+			x: -4.75d
+			y: -3.0d
+		}
+		{
+			dependencies: ["137F1E204294544F"]
+			id: "73C940FD797AC057"
+			rewards: [{
+				id: "2B3E8D59672153F6"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "Find that holiest of gemstones."
+			tasks: [{
+				id: "2861C1FD71C3008D"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			title: "Diamonds!"
+			x: -4.75d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0BD50EECE79AE49A"]
+			id: "61A279D001B4986D"
+			rewards: [{
+				id: "192B5F563F2084A2"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "Smelt a stack of iron ingots."
+			tasks: [{
+				count: 64L
+				id: "71E89C6A4642470F"
+				item: { Count: 64b, id: "minecraft:iron_ingot" }
+				type: "item"
+			}]
+			title: "Iron Age"
+			x: -9.375d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3A809EBDA0DFC721"]
+			id: "0BD50EECE79AE49A"
+			rewards: [{
+				id: "4D972FD6003D7E6E"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Build a furnace."
+			tasks: [{
+				id: "26FCCF8C500D9185"
+				item: "minecraft:furnace"
+				type: "item"
+			}]
+			title: "Basic Metallurgy"
+			x: -11.75d
+			y: -1.5d
+		}
+		{
+			dependencies: ["61A279D001B4986D"]
+			id: "137F1E204294544F"
+			rewards: [{
+				id: "3F8600A92A70A6A0"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Craft an iron pickaxe."
+			tasks: [{
+				id: "78D542825077FE12"
+				item: {
+					Count: 1b
+					id: "minecraft:iron_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Better Mining"
+			x: -7.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["137F1E204294544F"]
+			id: "182114FBD8FDD887"
+			rewards: [{
+				id: "3B9C3D2F68C07778"
+				type: "xp"
+				xp: 20
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			subtitle: "Collect a stack of redstone dust."
+			tasks: [{
+				count: 64L
+				id: "1A56D321E0786B2D"
+				item: { Count: 64b, id: "minecraft:redstone" }
+				type: "item"
+			}]
+			title: "Don't Breathe This In"
+			x: -7.0d
+			y: -3.75d
+		}
+		{
+			dependencies: ["4E14060BBACA84AF"]
+			id: "6FD88F40C331A1B8"
+			optional: true
+			rewards: [{
+				id: "1C0E6EEB0CE75626"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "Craft 4 upgrades for a backpack and container block."
+			tasks: [
+				{
+					count: 4L
+					id: "1F5A76EC1BE5D87E"
+					item: { Count: 4b, id: "sophisticatedbackpacks:upgrade_base" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "5312B064B3F1B588"
+					item: { Count: 4b, id: "sophisticatedstorage:upgrade_base" }
+					type: "item"
+				}
+			]
+			title: "Storage Upgrade"
+			x: -21.75d
+			y: -7.5d
+		}
+		{
+			dependencies: ["4E14060BBACA84AF"]
+			id: "30903BA7444510DC"
+			optional: true
+			rewards: [{
+				id: "2FC44D06F70A3967"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Craft 16 basic pipes to move items around."
+			tasks: [{
+				count: 16L
+				id: "29EF388491E3C1D8"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "mekanism:basic_mechanical_pipe"
+							}
+							{
+								Count: 1b
+								id: "pipez:item_pipe"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "I Like to Move It"
+			x: -19.5d
+			y: -5.25d
+		}
+		{
+			dependencies: ["61146BB81CD2A42F"]
+			id: "3A809EBDA0DFC721"
+			rewards: [{
+				id: "10491A2E6D164ED7"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "pentagon"
+			size: 1.25d
+			subtitle: "Craft a full set of stone tools."
+			tasks: [
+				{
+					id: "4D991236AC8A2A59"
+					item: {
+						Count: 1b
+						id: "minecraft:stone_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "265BEF279380B49B"
+					item: {
+						Count: 1b
+						id: "minecraft:stone_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3681FA321E6FC229"
+					item: {
+						Count: 1b
+						id: "minecraft:stone_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6412D146737E5C8F"
+					item: {
+						Count: 1b
+						id: "minecraft:stone_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5B7C47390289502D"
+					item: {
+						Count: 1b
+						id: "minecraft:stone_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Kitted Out"
+			x: -14.05357142857143d
+			y: -1.5d
+		}
+	]
+	title: "Starting Out"
+}
