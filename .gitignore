@@ -2,7 +2,7 @@ backups/
 config/jei/world
 crash-reports/
 hotbar.nbt
-journeymap/data/
+journeymap
 local/
 logs/
 mods/
